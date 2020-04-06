@@ -1,2 +1,5 @@
 # DAPD_Normalization
-The DAPD method improved accuracy by decreasing the statistical dispersion of time-series of quantitative traits. We applied DAPD to evaluate relative growth rate in Arabidopsis thaliana plants and demonstrate that it improves uniformity in measurements, permitting a more informative comparison between individuals. Comparisons between this and sowing-time approaches revealed a decrease of the standard deviation up to a ratio of 5:3. The DAPD method also identified more outliers than any other central tendency technique on the non-normalised dataset. DAPD depends upon a novel leaf segmentation  algorithm that we developed, which outperformed five other algorithms by obtaining the highest recall score (99.66 %). We validated the image segmentation   algorithm using four public plant phenotyping datasets. 
+Digital Adjustment of Plant Devopment (DAPD) is a method that sychronize shoot phenotypic measurements. It uses the plant leaf number to normalizes time-series measurements an early developmental stage. This method improves accuracy by decreasing the statistical dispersion of time-series of quantitative traits. Also, it can identify more outliers than any other central tendency technique on the non-normalised dataset.
+
+
+
