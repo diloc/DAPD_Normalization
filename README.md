@@ -3,7 +3,7 @@ Digital Adjustment of Plant Devopment (DAPD) is a method that sychronize shoot p
 
 The DAPD method has three modules: Rosette segmentation, Leaf segmentation and normalization. 
 - _Rosette segmentation module_ uses multiple image processing algorithms to extract the rosette area and remove the background. 
-- _Leaf segmentation module_ extracts individual leaf from the rosette. 
+- <font color=blue>_Leaf segmentation module_ </font> extracts individual leaf from the rosette. 
 - _Normalization module_ calculates a reference time-line using Bayesian inference at multiple time points of the time-series measurements, which include rosette area, leaf size and number.
 
 
