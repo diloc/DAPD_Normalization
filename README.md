@@ -8,9 +8,10 @@ The DAPD method has two modules that are used to process information, including 
 ## Data files:
 The source files are images of plant trays, and each one can allocate 20 pots, which are uniformly distributed _(fig. 1)_. Each pot allocates an individual plant that can be from the same or a different __Arabidopsis thaliana__ line/mutant.   
 
-<figure class="image">
-  <img src="{{ https://github.com/diloc/DAPD_Normalization/blob/master/2017-11-27-15-35_T06_cam03.jpg }}" alt="{{ include.description }}">
-  <figcaption>{{ include.description }}</figcaption>
+<figure>
+  <img src="https://github.com/diloc/DAPD_Normalization/blob/master/2017-11-27-15-35_T06_cam03.jpg">
+  <figcaption>
+  labelname :: This is the label text.
+  </figcaption>
 </figure>
 
-![GitHub Logo](https://github.com/diloc/DAPD_Normalization/blob/master/2017-11-27-15-35_T06_cam03.jpg)
