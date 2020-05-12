@@ -7,4 +7,5 @@ The DAPD method has two modules that are used to process information, including 
 - __Normalization module__ calculates a reference time-line using cross-correlation at multiple time points of the time-series measurements, which include rosette area, leaf size, and number.
 ## Data files:
 The source files are images of plant trays, and each one can allocate 20 pots, which are uniformly distributed _(fig. 1)_. Each pot allocates an individual plant that can be from the same or a different __Arabidopsis thaliana__ line/mutant.   
+
 ![GitHub Logo](https://github.com/diloc/DAPD_Normalization/blob/master/2017-11-27-15-35_T06_cam03.jpg)
