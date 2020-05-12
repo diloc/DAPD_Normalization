@@ -16,9 +16,10 @@ The source files are images of plant trays, and each one can allocate 20 pots, w
 </figure>
 
 After applying the image processing algorithms, some phenotyping traits are measured (Table 1).
+
 |Phenotyping Traits|
-|Projected rosette area|
 |----------|
+|Projected rosette area|
 |Hull Area|
 |Radius|
 |Roundness|
