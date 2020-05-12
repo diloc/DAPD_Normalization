@@ -11,7 +11,7 @@ The source files are images of plant trays, and each one can allocate 20 pots, w
 <figure>
   <img src="https://github.com/diloc/DAPD_Normalization/blob/master/2017-11-27-15-35_T06_cam03.jpg">
   <figcaption>
-  labelname :: This is the label text.
+  Figure 1: An image of a tray with 20 pots
   </figcaption>
 </figure>
 
