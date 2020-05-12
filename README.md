@@ -16,10 +16,9 @@ The source files are images of plant trays, and each one can allocate 20 pots, w
 </figure>
 
 After applying the image processing algorithms, some phenotyping traits are measured (Table 1).
-<table>
-     <caption>Phenotyping traits</caption>
-      | Command | Description |
-      | --- | --- |
-      | `git status` | List all *new or modified* files |
-      | `git diff` | Show file differences that **haven't been** staged |
-<table>
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
