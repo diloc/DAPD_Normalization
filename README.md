@@ -15,3 +15,9 @@ The source files are images of plant trays, and each one can allocate 20 pots, w
   </figcaption>
 </figure>
 
+After applying the image processing algorithms, some phenotyping traits are measured (Table 1).
+<table>
+     <caption>Test</caption>
+
+     <!-- ... -->
+<table>
