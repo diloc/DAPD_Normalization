@@ -37,7 +37,7 @@ def STD(pathSTD, EXP, line, feature, flag, matrix,  locat, dayInt, dayFnl):
 
     dayUnits = 'Days [DAS]' 
 
-    if flag == 'normal': dayUnits = 'Days [DAPD]'
+    if flag == 'areaNormal': dayUnits = 'Days [DAPD]'
 
     Adj.plot(time, mean, color = 'b', label='Mean')    
     Adj.fill_between(time, mean - STD, mean + STD, color='blue', alpha=0.2, label = 'Standard Deviation')
