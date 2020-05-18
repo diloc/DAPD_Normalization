@@ -5,7 +5,7 @@ Digital Adjustment of Plant Development (_DAPD_) is a method that synchronizes s
 <figure>
   <img src="https://github.com/diloc/DAPD_Normalization/blob/master/results_Col-0.jpg">
   <figcaption>
-  Figure 1: Mean and standard deviation of the non-normalized and normalized projected rosette area datasets. (a) the non-normalized datasets of Col-0 plants in experiment 1, (b) the normalized datasets of Col-0 plants in experiment 1. The light purple band indicates the standard deviation and the solid blue curve in the mean area.
+  Figure 1: Mean and standard deviation of the non-normalized and normalized projected rosette area datasets. (a) the non-normalized datasets of Col-0 plants in experiment 1, (b) the normalized datasets of Col-0 plants in experiment 1. The light purple band indicates the standard deviation and the solid blue curve indicates the mean area.
   </figcaption>
 </figure>
 
