@@ -26,15 +26,15 @@ The time-series of phenotyping traits are normalized to an early plant developme
 
 ## Resources
 
-Documentation: https://github.com/diloc/DAPD_Normalization/blob/master/user_manual.pdf
-Source Repository: : https://github.com/diloc/DAPD_Normalization
+* Documentation: https://github.com/diloc/DAPD_Normalization/blob/master/user_manual.pdf
+* Source Repository: : https://github.com/diloc/DAPD_Normalization
 
 ## Dependencies
-Python (3. 7 or higher).
-Pandas (1.0.3 or higher).
-OpenCV (4.2.0 or higher).
-Datetime
-Scipy (1.4.1 or higher).
-Matplotlib (1.18.1 or higher).
+* Python (3. 7 or higher).
+* Pandas (1.0.3 or higher).
+* OpenCV (4.2.0 or higher).
+* Datetime
+* Scipy (1.4.1 or higher).
+* Matplotlib (1.18.1 or higher).
 
 
