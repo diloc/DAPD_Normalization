@@ -21,6 +21,7 @@ The DAPD method uses image processing algorithms to analyze and extract plant ph
 
 <p>&nbsp;</p>
 
+
 The time-series of phenotyping traits are normalized to an early plant development stage. The number of leaves is used to identify a particular development stage among plants in an experiment (HTP scale). Then, the relationship between the development stages and time-series is studied by shifting the series timeline and calculating the regression.
 
 
