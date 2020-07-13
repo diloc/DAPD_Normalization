@@ -10,7 +10,7 @@ Digital Adjustment of Plant Development (_DAPD_) is a method that synchronizes s
 </figure>
 
 ## Description
-The DAPD method uses image processing algorithms to analyze and extract plant phenotyping traits. It starts by loading RGB images and other files such as camera parameters which are used to correct the lens distortion. After, the image quality is improved by reducing the noise and correcting the color distortion. Then, the projected rosette is segmented from the pot image by removing automatically the background. Finally, phenotyping traits are obtained from the segmented image and write in CSV files. The traits include projected rosette area, leaf number, and perimeter _(Figure 2)_. The user can run DAPD image processing module to extract the traits (See tutorial).
+The DAPD method uses image processing algorithms to analyze and extract plant phenotyping traits. It starts by loading RGB images and other files such as camera parameters which are used to correct the lens distortion. After, the image quality is improved by reducing the noise and correcting the color distortion. Then, the projected rosette is segmented from the pot image by removing automatically the background. Finally, phenotyping traits are obtained from the segmented image and write them in CSV files. The traits include projected rosette area, perimeter, leaf number, hull Area, radius, roundness, compactness and eccentricity _(Figure 2)_. The user can run DAPD image processing module to extract the traits (See tutorial).
 
 <figure>
   <img src="https://github.com/diloc/DAPD_Normalization/blob/master/ImProcess_Steps.png">
@@ -21,19 +21,6 @@ The DAPD method uses image processing algorithms to analyze and extract plant ph
 
 <p>&nbsp;</p>
 
-
 The time-series of phenotyping traits are normalized to an early plant development stage. The number of leaves is used to identify a particular development stage among plants in an experiment (HTP scale). Then, the relationship between the development stages and time-series is studied by shifting the series timeline and calculating the regression.
 
-
-
-After applying the image processing algorithms, phenotyping traits are measured during the acquisition time and stored in a CSV file (Table 1).
-
-|Phenotyping Traits|
-|----------|
-|Projected rosette area|
-|Hull Area|
-|Radius|
-|Roundness|
-|Compactness|
-|Eccentricity|
 
