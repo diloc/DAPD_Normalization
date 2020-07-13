@@ -9,19 +9,19 @@ Digital Adjustment of Plant Development (_DAPD_) is a method that synchronizes s
   </figcaption>
 </figure>
 
-## The DAPD modules: 
-The DAPD method has two modules that are used to process information, including raw images of plants, and datasets (.csv). These modules were written in Python programming language and presented in Juptyter notebook pages. 
-- __Rosette and leaf segmentation module__ uses multiple image processing algorithms to extract the rosette area and remove the background from plant images. The leaf segmentation extracts individual leaf from the rosette. 
-- __Normalization module__ calculates a reference time-line using cross-correlation at multiple time points of the time-series measurements, which include rosette area, leaf size, and number.
-## Data files:
-The source files are images of plant trays, and each one can allocate 20 pots, which are uniformly distributed _(Figure 2)_. Each pot has an individual plant that can be from the same or a different __Arabidopsis thaliana__ line/mutant.   
+## Description
+The DAPD method uses image processing algorithms to analyze and extract plant phenotyping traits. It starts by loading RGB images and other files such as camera parameters which are used to correct the lens distortion. After, the image quality is improved by reducing the noise and correcting the color distortion. Then, the projected rosette is segmented from the pot image by removing automatically the background. Finally, phenotyping traits are obtained from the segmented image and write in CSV files. The traits include projected rosette area, leaf number, and perimeter _(Figure 2)_. The user can run DAPD image processing module to extract the traits (See tutorial).
 
 <figure>
-  <img src="https://github.com/diloc/DAPD_Normalization/blob/master/2017-11-27-15-35_T06_cam03.jpg">
+  <img src="https://github.com/diloc/DAPD_Normalization/blob/master/ ImProcess_Steps.png ">
   <figcaption>
-  Figure 2: An image of a tray with 20 pots
+  Figure 2: The most important image processing steps: Acquisition, correction and noise reduction, pot cropping, image segmentation and phenotyping measurements.
   </figcaption>
 </figure>
+
+The time-series of phenotyping traits are normalized to an early plant development stage. The number of leaves is used to identify a particular development stage among plants in an experiment (HTP scale). Then, the relationship between the development stages and time-series is studied by shifting the series timeline and calculating the regression.
+
+
 
 After applying the image processing algorithms, phenotyping traits are measured during the acquisition time and stored in a CSV file (Table 1).
 
