@@ -1,5 +1,5 @@
 # DAPD Method
-Digital Adjustment of Plant Development (_DAPD_) is a method that synchronizes shoot phenotypic measurements. It uses the plant leaf number to normalizes time-series measurements, such as the projected rosette area and leaf area. This method improves accuracy by decreasing the statistical dispersion of time-series of quantitative traits _(Figure 1)_. Also, it can identify more outliers than any other central tendency technique on the non-normalized dataset.
+Digital Adjustment of Plant Development (_DAPD_) is a method that synchronizes shoot phenotypic measurements. It uses the plant leaf number to normalizes time-series measurements, such as the projected rosette area and leaf area. This method improves accuracy by decreasing the statistical dispersion of time-series of quantitative traits _(Figure 1)_. Also, it can identify more outliers than any other central tendency technique on the non-normalized dataset. The DAPD method was written in Python programming language and presented in Juptyter notebook pages.
 
 
 <figure>
