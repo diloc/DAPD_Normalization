@@ -26,7 +26,7 @@ The time-series of phenotyping traits are normalized to an early plant developme
 
 ## Resources
 
-* Documentation: https://github.com/diloc/user_manual.pdf
+* Documentation: https://github.com/diloc/DAPD_Normalization/blob/master/DAPD_User_manual.pdf
 * Source Repository: : https://github.com/diloc/DAPD_Normalization
 
 ## Dependencies
